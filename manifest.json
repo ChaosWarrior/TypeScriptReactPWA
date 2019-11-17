@@ -1,0 +1,16 @@
+{
+    "name": "為替PWA",
+    "short_name": "為替PWA",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3eaf7c",
+    "icons": [
+      {
+        "src": "s.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ]
+  }
+  

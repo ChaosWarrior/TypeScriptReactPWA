@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currency</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if (navigator.serviceWorker != null) {
+      navigator.serviceWorker.register('sw.js')
+        .then(function (registartion) {
+          console.log('sw OK:', registartion.scope)
+        })
+    }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="dialog">
+      <div id="app"></div>
+    </div>
+  </div>
+    <script src="dist/app.js"></script>
+
+</body>
+
+</html>
